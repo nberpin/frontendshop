@@ -24,6 +24,9 @@ body{
     background-color: var(--primario);
 
 }
+a {
+    text-decoration: none;
+}
 
 /*Header*/
 .header{
@@ -35,3 +38,22 @@ body{
 }
 
 /* Navegacion */
+.navegacion {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+
+
+}
+.navegacion__enlace{
+    font-size: 3rem;
+    font-family: var(--fuentePrincipal);
+    color:var(--blanco);
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--secundario);  
+}
