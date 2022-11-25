@@ -1,0 +1,37 @@
+:root{
+    --primario: #9c27B0;
+    --primarioOscuro: #89119d;
+    --secundario: #FFCE00;
+    --secundarioOscuro:rgb(233,187,2);
+    --blanco: #FFF;
+    --negro:#000;
+    --fuentePrincipal: 'Staatliches', cursive;
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+
+/**Globales **/
+body{
+    font-size: 1.6rem;
+    background-color: var(--primario);
+
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 3rem;
+}
+
+/* Navegacion */
